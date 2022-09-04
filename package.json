@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "name": "base-apparel-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tailwindcss -i input.css -o output.css --watch",
+    "prod": "tailwindcss -i input.css -o output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
